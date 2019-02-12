@@ -1,0 +1,20 @@
+{
+  "name": "rhyeks-tslint-rules",
+  "version": "0.1.0",
+  "description": "A few useful tslint rules.",
+  "main": "tslint-default-config.json",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "3.1.x"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.24"
+  }
+}
